@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns= "http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en">
+    <title>Müzikus Posta 2. Sayı</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* Container to center images */
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px; /* Adjust margin for spacing at the top */
+        }
+        .image-container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            /* margin-top: 50px;  Adjust margin for spacing at the top */
+        }
+        /* Styling for the images */
+                /* Style for images to remove any gap */
+        .image-container img {
+            display: block; /* Removes any space from inline elements */
+            margin: 0; /* Removes default margin */
+            padding: 0; /* Removes default padding
+            margin: 10px 0;*/
+            
+            max-width: 100%;
+        }
+        /* Center button container */
+        .button-container {
+            text-align: center;
+            margin-top: 20px; /* Space between images and button */
+        }
+        /* Style for the rounded back-button */
+        .back-button {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 25px; /* Makes the button rounded */
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Image container -->
+    <div class="image-container">
+        <img src="sayi3.webp">
+    </div>
+
+    <!-- Button to go back to the home page just below the last image -->
+    <div class="button-container">
+        <a href="index.html" class="back-button">Ana Sayfa</a>
+    </div>
+
+</body>
+</html>
